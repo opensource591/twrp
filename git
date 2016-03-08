@@ -6,3 +6,4 @@ echo "Enter commit message"
 commit=""
 read commit
 git commit -m "$commit"
+git push origin gh-pages
